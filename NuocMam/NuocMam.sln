@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuocMam", "NuocMam\NuocMam.csproj", "{78711121-D8C8-4D52-BB2B-78EE2CB23145}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuocMamReal", "NuocMamReal\NuocMamReal.csproj", "{294914DD-77BC-4647-AFC9-81887B544C56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuocMam.Tests", "NuocMam.Tests\NuocMam.Tests.csproj", "{771FEA3B-FF78-4CA1-A596-35ADAB59830C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuocMamReal.Tests", "NuocMamReal.Tests\NuocMamReal.Tests.csproj", "{FE89584E-DC84-4DFB-8AFC-0522CF577920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuocMam.Model", "NuocMam.Model\NuocMam.Model.csproj", "{88C80E9D-CA6D-4380-8760-BF172A319966}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78711121-D8C8-4D52-BB2B-78EE2CB23145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78711121-D8C8-4D52-BB2B-78EE2CB23145}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78711121-D8C8-4D52-BB2B-78EE2CB23145}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78711121-D8C8-4D52-BB2B-78EE2CB23145}.Release|Any CPU.Build.0 = Release|Any CPU
-		{771FEA3B-FF78-4CA1-A596-35ADAB59830C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{771FEA3B-FF78-4CA1-A596-35ADAB59830C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{771FEA3B-FF78-4CA1-A596-35ADAB59830C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{771FEA3B-FF78-4CA1-A596-35ADAB59830C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294914DD-77BC-4647-AFC9-81887B544C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294914DD-77BC-4647-AFC9-81887B544C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294914DD-77BC-4647-AFC9-81887B544C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294914DD-77BC-4647-AFC9-81887B544C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE89584E-DC84-4DFB-8AFC-0522CF577920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE89584E-DC84-4DFB-8AFC-0522CF577920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE89584E-DC84-4DFB-8AFC-0522CF577920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE89584E-DC84-4DFB-8AFC-0522CF577920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C80E9D-CA6D-4380-8760-BF172A319966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C80E9D-CA6D-4380-8760-BF172A319966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C80E9D-CA6D-4380-8760-BF172A319966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C80E9D-CA6D-4380-8760-BF172A319966}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
